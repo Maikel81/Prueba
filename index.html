@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Monster Hunter Diary</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript">
+
+function PlaySound(id) {
+  var thissound=document.getElementById("fanfare_intro");
+  thissound.Play();
+}
+
+//precarga de imagenes
+var images = new Array()
+function preload() {
+
+for (i = 0; i < preload.arguments.length; i++) {
+
+images[i] = new Image()
+images[i].src = preload.arguments[i]
+}
+}
+preload(
+'img/background/background1.jpg',
+'img/background/background2.jpg',
+'img/background/background3.jpg',
+'img/background/background4.jpg',
+'img/background/background5.jpg',
+'img/background/background6.jpg',
+'img/background/background7.jpg',
+)
+
+ 
+
+</script>
+
+</head>
+<body onLoad="carga()">
+	<embed src="sounds/MH_fanfare.wav" 
+  id="fanfare_intro" 
+  autostart="false" 
+  width="0" height="0" 
+  enablejavascript="true" 
+/>
+<header>
+	<div id="layaout-top"></div>
+
+		<div id="cabecera">
+			<div id="colmillos">
+					<div id="background">
+
+							<div id="logo">
+								<img src="img/Monster_Hunter_Logo.png"/>
+							</div>
+
+								<div id="background_der">
+										<div id="capacentral">	
+												
+												<div id="capamenu">
+													<ul>
+														<a href="#"><li class="botones boton_objetos"><p>Objetos</p></li></a>
+														<a href="#"><li class="botones boton_armas"><p>Armas</p></li></a>
+														<a href="#"><li class="botones boton_armaduras"><p>Armaduras</p></li></a>
+														<a href="#"><li class="botones boton_monstruos"><p>Monstruos</p></li></a>
+													</ul>
+												</div>
+												
+												<div id="capacontacto">
+													<span id="borde_izq"></span><hr> </hr><span id="borde_der"></span> 
+													
+												
+												</div>
+												<div id="capagato">
+
+														<a href="#">
+															<div id="gatosaludos">
+															</div>
+														</a>
+														
+														<a href="#">
+															<div id="gatosaludos2">
+														    </div>
+													    </a>
+														
+												</div>
+										</div>
+										<div id="layout_cabecera_der">
+										</div>	
+								</div>		
+					</div>
+			</div>
+		</div>
+	
+</header>
+<section class="centro">	
+		<div id="capa2">
+			<div id="submenu">
+				 <ul class="neon">
+				 <a href="#"><li>Monster Hunter 3</li></a>
+				 <a href="#"><li>Monster Hunter 4</li></a>
+				 <a href="#"><li>Monster Hunter World</li></a>
+				 <a href="#"><li>FAQ</li></a>
+				 <a href="#"><li>Fan Art</li></a>
+				 <a href="#"><li>Foro</li></a>
+				 </ul>
+			</div>
+		</div>
+		
+		<div id="capa3">
+			<p>Bacon ipsum dolor amet chuck tri-tip pastrami fatback pork cupim. Prosciutto pork belly short loin sausage picanha filet mignon shankle pork loin tail cow pastrami doner. Cupim picanha flank beef t-bone pig salami ham turducken fatback corned beef pork loin alcatra pancetta short ribs. Chicken fatback tri-tip, shank frankfurter short loin pancetta spare ribs. Porchetta meatloaf pork shankle pancetta pastrami kevin sirloin. Ham pastrami salami turkey, frankfurter chuck jerky pork chop andouille porchetta pork pork loin filet mignon.</p>
+			<p>
+			Cupim kielbasa venison sirloin corned beef, tri-tip short ribs cow kevin andouille meatball capicola. Swine capicola tail, pork tri-tip jerky porchetta turducken ground round bresaola ham hock alcatra short ribs shankle. Kielbasa frankfurter strip steak doner tongue tri-tip shank cupim beef ribs swine filet mignon shankle ground round. Kevin sirloin spare ribs swine fatback, tail pork loin. Chuck jowl tenderloin pastrami landjaeger pancetta kevin boudin alcatra tongue. Shankle landjaeger sirloin pancetta.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+			<p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p><p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p><p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p><p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p><p>
+			Shankle swine pork chop short ribs, prosciutto bresaola picanha andouille landjaeger beef ribs. Tri-tip tenderloin swine, ground round landjaeger cow chuck hamburger short ribs brisket pork jowl beef ribs. Kielbasa jerky prosciutto doner brisket frankfurter pork chop. Beef ribs ribeye landjaeger t-bone pancetta rump hamburger jerky burgdoggen ham hock chuck shankle drumstick pork. Short loin fatback sausage shoulder andouille swine beef ribs tri-tip flank pork belly cow brisket turkey alcatra picanha. Brisket boudin landjaeger meatball prosciutto chuck.</p>
+		</div>
+
+		
+</section>	
+	
+<footer>	
+		<div id="capa5">
+
+			<div id="layout_izq_footer">
+				<a href="#" target="_blank">
+				<div id="textos_pie" class="letrero"><p>Politica de coockies</p></div>
+				</a>
+				<div id="textos_copy" class="copy"><p>Monster Hunter es una marca registrada por<span></span>.<i>Todos los derechos reservados.<i></p></div>
+				
+			</div>
+
+			<div id="layout_der_footer">
+					<div id="delegada"></div>
+				<div id="letrero_redes">
+					<img src="img/etiqueta.png" alt="" usemap="#Map"/>
+						<map name="Map">
+						  <area shape="circle" coords="29,35,11" href="https://www.youtube.com/?gl=ES&hl=es">
+						  <area shape="rect" coords="40,24,60,44" href="https://twitter.com/?lang=es">
+						  <area shape="circle" coords="70,35,10" href="https://plus.google.com/collections/featured?hl=es">
+						<area shape="circle" coords="283,332,188" href="#">
+					</map>
+				</div>
+			</div>
+			
+		</div>
+
+</footer>
+</body>
+
+</html>
